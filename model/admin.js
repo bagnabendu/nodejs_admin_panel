@@ -16,7 +16,11 @@ const adminSchema=new Schema({
     isVerified: {
         type: Boolean,
         default: true
-    }
+    },
+   confirmpassword: {
+        type: String,
+        required: true
+    },
    
 })
 
