@@ -17,10 +17,7 @@ const adminSchema=new Schema({
         type: Boolean,
         default: true
     },
-   confirmpassword: {
-        type: String,
-        required: true
-    },
+  
    
 })
 
